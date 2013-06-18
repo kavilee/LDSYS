@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kavilee.ldsys"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" >
+    </uses-permission>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminLoginSuccessUI"
+            android:label="@string/admin_login_name" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".DsLoginSuccessUI"
+            android:label="@string/DS_login_name" />
+        <activity
+            android:name=".UserLoginSuccessUI"
+            android:label="@string/user_login_name" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.mapview.ChooseAddressActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.mapview.MyMapView"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.mapview.LDline"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.mapview.AdminLine"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.about.AboutGIS"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.about.AboutSYS"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.about.About"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.kavilee.detail.OrderDetail_user"
+            android:label="@string/orderdetail" />
+        <activity
+            android:name="com.kavilee.detail.OrderDetail_admin"
+            android:label="@string/orderdetail" />
+        <activity
+            android:name="com.kavilee.detail.OrderDetail_admin_con"
+            android:label="@string/orderdetail" />
+        <activity
+            android:name="com.kavilee.detail.OrderDetail_ds_complete"
+            android:label="@string/orderdetail" />
+        <activity
+            android:name="com.kavilee.detail.OrderDetail_ds_incomplete"
+            android:label="@string/orderdetail" />
+        <activity
+            android:name="com.kavilee.detail.UserDetail"
+            android:label="@string/userdetail" />
+        <activity
+            android:name="com.kavilee.detail.DSDetail"
+            android:label="@string/dsdetail" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+    </application>
+
+</manifest>

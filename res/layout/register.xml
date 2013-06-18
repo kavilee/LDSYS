@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:orientation="vertical" >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+        >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="50dip"
+            android:layout_marginBottom="50dip"
+            android:text="@string/wellcome"
+            android:textColor="#00f00f"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:paddingBottom="20dip"
+        android:layout_weight="7" >
+        
+        <Spinner
+            android:id="@+id/regspinner"
+            style="@style/spinner_style"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="10dip" />
+
+        <TextView
+            android:id="@+id/loginnametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/regspinner"
+            android:layout_marginBottom="5dip"
+            android:text="@string/loginname"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/userREditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/loginnametv"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="10dip"
+            android:clickable="true"
+            android:hint="@string/sign_name"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/passwordtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userREditText"
+            android:layout_below="@+id/userREditText"
+            android:layout_marginBottom="5dip"
+            android:text="@string/password"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pswREditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/passwordtv"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="10dip"
+            android:clickable="true"
+            android:hint="@string/sign_psw"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dip"
+            android:textColor = "#000000"
+            android:text="@string/select"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pswREditText"
+            android:layout_below="@+id/pswREditText"
+            android:layout_marginBottom="5dip"
+            android:text="@string/phonum"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/phoEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView6"
+            android:background="@drawable/edittext"
+            android:clickable="true"
+            android:hint="@string/sign_psw"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/signselector"
+            android:text="@string/sign"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+      </RelativeLayout>
+    </LinearLayout>  
+  </ScrollView> 
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!-- spinner -->
+    <style name="spinner_style">
+    <item name="android:background">@drawable/spinner</item>
+    <item name="android:paddingLeft">15dip</item>
+    </style>
+    
+ </resources>

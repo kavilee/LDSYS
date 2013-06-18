@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="588dip"
+        android:layout_marginLeft="8dip"  >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:textSize="25sp"
+            android:textColor="#ff0000"
+            android:text="@string/aboutSYS" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="20dp"
+            android:text="@string/SYS"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    
+    </ScrollView> 
+    
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">物流配送</string>
+        <string name="orderdetail">订单详情</string>
+        <string name="userdetail">用户个人信息</string>
+        <string name="dsdetail">配送员个人信息</string>
+        <string name="admin_login_name">当前管理员登录</string>
+        <string name="DS_login_name">当前配送员登录</string>
+        <string name="user_login_name">当前用户登录</string>
+        <string name="wellcome">欢迎您注册本系统</string>
+        <string name="welcome">欢迎您使用本系统</string>
+        <string name="select">选择注册角色</string>
+        <string name="loginname">登录名</string>
+        <string name="password">密码</string>
+        <string name="sign">注册</string>
+        <string name="login">登录</string>
+        <string name="more">更多</string>
+        <string name="aboutGIS">关于GIS</string>
+        <string name="aboutSYS">关于物流配送</string>
+        <string name="desc">image</string>
+        <string name="exit">退出</string>        
+        <string name="SEL1">请选择配送员</string>        
+        <string name="SEL2">请选择注册角色</string>        
+        <string name="admin">管理员</string>
+        <string name="user">用户</string>
+        <string name="mapview">查看地图</string>
+        <string name="about">关于</string>
+        <string name="Deliverystaff">配送员</string>
+        <string name="sign_name">请输入登录名</string>
+        <string name="sign_psw">请输入密码</string>
+        <string name="sign_num">请输入电话号码</string>
+        <string name="phonum">电话号码</string>
+        <string name="about1">谢谢您的使用\n\n感谢老师和同学\n感谢所有帮助过我的人\n\n我的大学已经落下帷幕\n迎接我的是更美好的未来\n\n李嘉威\n3109006130</string>
+        <string name="GIS">"        地理信息系统（GIS，Geographic Information System）是一门综合性学科，结合地理学与地图学，已经广泛的应用在不同的领域，是用于输入、存储、查询、分析和显示地理数据的计算机系统，也有称GIS为“地理信息科学”（Geographic Information Science）。
+        
+        GIS可以分为以下五部分：
+        1.人员，是GIS中最重要的组成部分。开发人员必须定义GIS中被执行的各种任务，开发处理程序。 熟练的操作人员通常可以克服GIS软件功能的不足，但是相反的情况就不成立。最好的软件也无法弥补操作人员对GIS的一无所知所带来的负作用。
+        2.数据，精确的可用的数据可以影响到查询和分析的结果。
+        3.硬件，硬件的性能影响到处理速度，使用是否方便及可能的输出方式。
+        4.软件，不仅包含GIS软件，还包括各种数据库，绘图、统计、影像处理及其它程序。
+        5.过程，GIS 要求明确定义，一致的方法来生成正确的可验证的结果。
+        
+        GIS属于信息系统的一类，不同在于它能运作和处理地理参照数据。地理参照数据描述地球表面(包括大气层和较浅的地表下空间)空间要素的位置和属性，在GIS中的两种地理数据成分：空间数据，与空间要素几何特性有关；属性数据，提供空间要素的信息。
+        地理信息系统（GIS）与全球定位系统(GPS)、遥感系统(RS)合称3S系统。
+        一个地理信息系统(GIS) 是一种具有信息系统空间专业形式的数据管理系统。在严格的意义上, 这是一个具有集中、存储、操作、和显示地理参考信息的计算机系统。例如，根据在数据库中的位置对数据进行识别。实习者通常也认为整个GIS系统包括操作人员以及输入系统的数据。
+        地理信息系统（GIS）技术能够应用于科学调查、资源管理、财产管理、发展规划、绘图和路线规划。例如，一个地理信息系统(GIS)能使应急计划者在自然灾害的情况下较易地计算出应急反应时间，或利用GIS系统来发现那些需要保护不受污染的湿地。"</string>
+        <string name="SYS">"中文名称：物流配送
+英文名称：logistics distribution
+定义：按照客户的要求，经过分货、拣选等货物配备工作，把最终产品从生产线的末端到消费者手中的移动和存储过程。
+应用学科：地理学（一级学科）；经济地理学（二级学科）。
+
+物流配送
+        现代物流实用词典说物流配送是共同化的服务模式，物流配送共同化包括物流资源利用共同化、物流设施与设备利用共同化、物流管理共同化等等。详细来说，物流配送是物流活动中一种非单一的业务形式，它与商流、物流、资金流紧密结合，并且主要包括了商流活动、物流活动和资金流活动，可以说它是包括了物流活动中大多数必要因素的一种业务形式。
+配送要素
+        (1)备货。是配送的准备工作或基础工作，备货工作包括筹集货源、订货或购货、集货、进货及有关的质量检查、结算、交接等。配送的优势之一，就是可以集中用户的需求进行一定规模的备货。备货是决定配送成败的初期工作，如果备货成本太高，会大大降低配送的效益。
+        (2)储存。配送中的储存有储备及暂存两种形态。
+        配送储备是按一定时期的配送经营要求，形成的对配送的资源保证。这种类型的储备数量较大，储备结构也较完善，视货源及到货情况，可以有计划地确定周转储备及保险储备结构及数量。配送的储备保证有时在配送中心附近单独设库解决。
+        另一种储存形态是暂存，是具体执行日配送时，按分拣配货要求，在理货场地所做的少量储存准备。由于总体储存效益取决于储存总量，所以，这部分暂存数量只会对工作方便与否造成影响，而不会影响储存的总效益，因而在数量上控制并不严格。
+还有另一种形式的暂存，即是分拣、配货之后，形成的发送货载的暂存，这个暂存主要是调节配货与送货的节奏，暂存时间不长。
+        (3)分拣及配货。是配送不同于其它物流形式的有特点的功能要素，也是配送成败的一项重要文持性工作。分拣及配货是完善送货、支持送货准备性工作，是不同配送企业在送货时进行竞争和提高自身经济效益的必然延伸，所以，也可以说是送货向高级形式发展的必然要求。有了分拣及配货就会大大提高送货服务水平，所以，分拣及配货是决定整个配送系统水平的关键要素。
+        (4)配装。在单个用户配送数量不能达到车辆的有效载运负荷时，就存在如何集中不同用户的配送货物，进行搭配装载以充分利用运能、运力的问题，这就需要配装；和一般送货不同之处在于，通过配装送货可以大大提高送货水平及降低送货成本，所以，配装也是配送系统中有现代特点的功能要素，也是现代配送不同于已往送货的重要区别之处。
+        (5)配送运输。配送运输属于运输中的末端运输、支线运输，和一般运输形态主要区别在于：配送运输是较短距离、较小规模、额度较高的运输形式，一般使用汽车做运输工具。与干线运输的另一个区别是，配送运输的路线选择问题是一般干线运输所没有的，干线运输的干线是唯一的运输线，而配送运输由于配送用户多，一般城市交通路线又较复杂i如何组合成最佳路线，如何使配装和路线有效搭配等，是配送运输的特点，也是难度较大的工作。
+        (6)送达服务。配好的货运输到用户还不算配送工作的完结，这是因为送达货和用户接货往往还会出现不协调，使配送前功尽弃。因此，要圆满地实现运到之货的移交，并有效地、方便地处理相关手续并完成结算，还应讲究卸货地点、卸货方式等。送达服务也是配送独具的特殊性。
+        (7)配送加工。在配送中，配送加工这一功能要素不具有普遍性，但是往往是有重要作用的功能要素。主要原因是通过配送加工，可以大大提高用户的满意程度。配送加工是流通加工的一种，但配送加工有它不同于一般流通加工的特点，即配送加工一般只取决于用户要求，其加工的目的较为单一。
+
+物流配送类型
+        1.配送中心
+        配送中心配送的组织者是以配送为专职的配送中心，通常规模比较大，种类，存储量比较多，专业性强，和用户有固定的配送关系。
+        2.生产企业
+        生产企业配送的组织者是生产制造加工企业，尤其是进行多种生产的企业。这些企业可以通过自己的配送系统进行配送，而不需要再将产品发运分配到配送中心进行配送。
+        3.仓库配送
+        仓库配送是以仓库为物流节点组织的配送。它既可以将仓库完全作为配送中心，也可以在保持仓库仓储功能的基础上再增加一部分配送职能。
+        4.商店配送
+        商店配送的组织者是商品零售经营者或者物资经营网点。这些经营者或者网点的主营业务是零售，一般规模都比较小，但经营品种齐全，容易组织配送。
+        5.家电连锁
+        一、方便性：家电配送作为一项增值服务，必须最大限度地满足客户要求，为顾客提供便捷的服务。空间地域上,物流分销体系细化和庞大家电连锁经营已经细化出专业店、旗舰店、数码店、手机店、网上店等多种渠道。物流系统出货配送和售后服务网络覆盖范围大。正如科特勒所说的那样:今日的企业必须致力于以最便利的方式来满足顾客的需求，并尽力缩减顾客在服务的搜索、下订单和收取上所花费的时间和精力。
+        二、安全性：必须将货物完好无损地送达到指定地点，防止产品在搬运、运输过程中损坏，避免给企业和消费者带来不必要的麻烦。
+        三、沟通性：家电配送属于物流末端服务，直接与顾客接触必须进行积极有效地沟通。比如确认顾客购买的产品、送货时间、送货地点等内容，对消费者需求的响应速度对企业自身及供应链的其他成员影响较大这形成家电连锁零售商主导的供应链。
+        四、经济性：做物流必须要分析成本，以合理的成本为顾客提供最满意的服务，家电配送也不例外，物流活动集中、集中采购、集中储存和统一配送,以此降低经营成本。"</string>
+        
+        <string name="admin_tab_1">未确认的订单</string>  
+        <string name="admin_tab_2">已确认的订单</string>
+        <string name="DS_tab_1">要配送的订单</string>  
+        <string name="DS_tab_2">已配送的订单</string>
+        <string name="user_tab_1">提交订单</string>  
+        <string name="user_tab_2">我的订单</string>
+        
+        <string name="title">标题</string>
+        <string name="contents">内容1</string>
+        <string name="price">内容2</string>
+                
+        <string-array name="role_array_re">
+            <item>配送员</item>
+            <item>用户</item>                         
+        </string-array>
+            <string name="order_name">货物名:</string>
+            <string name="addressee">收件人:</string>
+            <string name="address">收件地址:</string>
+            <string name="saddress">发件地址:</string>
+            <string name="zip">邮编:</string>
+            <string name="submit">提交订单</string>
+            <string name="confirm">确认订单</string>
+            <string name="check">查看路线</string>
+            <string name="complete">配送完成</string>
+            <string name="choose">"去选择"</string>
+            <string name="order_id">"订单编号:"</string>
+            <string name="Destaff">配送员:</string>
+            <string name="Destaff_name">配送员名:</string>
+            <string name="Destaff_ID">配送员编号:</string>
+            <string name="userphonum">收件人电话号码:</string>
+            <string name="user_pn">电话号码:</string>
+            <string name="dsphonum">配送员电话号码:</string>
+            <string name="order_price">订单价格:</string>
+            <string name="user_ID">用户编号:</string>
+            <string name="user_name">用户名:</string>
+            <string name="TIME">时间最短</string>
+            <string name="DIS">路程最短</string>
+            <string name="FEE">费用最少</string>
+</resources>
